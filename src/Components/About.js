@@ -1,5 +1,5 @@
 import { WebGLRenderTarget, Object3D, LinearFilter } from "three"
-import React, { Suspense, useMemo, useRef } from "react"
+import React, { Suspense, useMemo, useRef, Component} from "react"
 import ReactDOM from "react-dom"
 import { Canvas, useThree, useFrame } from "@react-three/fiber"
 import { useAspect, useGLTF, useTexture } from "@react-three/drei"
@@ -8,7 +8,7 @@ import RefractionMaterial from "./refraction-material"
 import diamondUrl from "./assets/diamond.glb"
 import textureUrl from "./assets/233.jpg"
 import "./styles.css"
-import React, { Component } from 'react';
+
 
 class About extends Component {
   render() {
