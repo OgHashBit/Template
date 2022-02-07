@@ -11,9 +11,6 @@ import "./styles.css"
 
 
 class About extends Component {
-  render() {
-
-  
 function Background() {
   const texture = useTexture(textureUrl)
   const size = useAspect(5000, 3800)
